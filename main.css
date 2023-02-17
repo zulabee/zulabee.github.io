@@ -87,6 +87,9 @@ td {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+th {
+	text-align: left;
+}
 
 /* classes */
 .center {
@@ -94,12 +97,14 @@ td {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .column {
 	float: left;
 	width: 50%;
 }
-
 .content {
 	min-height: calc(100% - 50px);
+}
+.fade {
+	color: #8a8a8a;
+	font-style: italic;
 }
