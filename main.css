@@ -19,6 +19,7 @@ nav a {		/* nav links */
 	color: #333;
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 15px;
+	text-decoration: none;
 }
 
 /* main body format */
@@ -73,6 +74,16 @@ p {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 15px;
 	line-height: 1.5;
+}
+
+/* table properties */
+table {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 15px;
+}
+td {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 /* classes */
