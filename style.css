@@ -54,9 +54,11 @@ h2 {
 
 h3 {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 16px;
-    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 0;
+	margin-top: 0;
     text-align: center;
+	text-decoration: underline;
 }
 
 p {
@@ -76,4 +78,30 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+.fade {
+	font-size: 14px;
+	font-style: italic;
+	color: #8a8a8a;
+}
+
+.roster {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+  
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+ }
+
+ .column {
+	width: 50%;
+	float: left;
   }
