@@ -52,6 +52,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+}
+
 p {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 14px;
@@ -63,3 +70,10 @@ footer {
 	padding: 10px;
 	text-align: center;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
