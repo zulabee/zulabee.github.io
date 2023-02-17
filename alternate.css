@@ -114,3 +114,14 @@ td {
 	color: #8a8a8a;
 	font-style: italic;
 }
+/* button style */
+button {
+	background-color: #292929;
+	color: white;
+    cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
