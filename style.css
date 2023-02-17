@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	color: #333;
 }
 
@@ -75,6 +75,8 @@ footer {
 	background-color: #f5f5f5;
 	padding: 10px;
 	text-align: center;
+	position: sticky;
+	bottom: 0;
 }
 
 .center {
@@ -84,21 +86,11 @@ footer {
 	width: 50%;
 }
 
-.fade {
-	font-size: 14px;
-	font-style: italic;
-	color: #8a8a8a;
-}
-
-.roster {
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 14px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
- .column {
+.column {
 	width: 50%;
 	float: left;
-  }
+}
+
+.content {
+	min-height: calc(100% - 50px);
+}
