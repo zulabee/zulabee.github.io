@@ -75,6 +75,9 @@ p {
     font-size: 15px;
 	line-height: 1.5;
 }
+a:visited {
+    color: #3c6b5c;
+}
 
 /* table properties */
 table {
