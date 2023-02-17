@@ -82,6 +82,8 @@ table {
 	font-size: 15px;
 }
 td {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 15px;
 	padding-left: 25px;
 	padding-right: 25px;
 }
