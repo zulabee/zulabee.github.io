@@ -54,7 +54,7 @@
         <!-- page header(s) -->
         <section id="header" class="container text-sm-center mt-3">
             <img alt="usf text" src="usf-text.png" class="img-fluid mt-5">
-            <h3 style="color:#3d3d3d" style="font-size:15px">
+            <h3 style="color:#3d3d3d; font-size:15px">
                 a cool bootstrap page for <span style="color:#506958">valorant green</span>
             </h3>
         </section>
@@ -63,45 +63,53 @@
         <section id="carousel" class="container text-sm-center mt-5">
             <!-- image carousel -->
             <div id="mapcarousel" class="carousel slide">
+                <!-- list of carousel items -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active">  <!-- fracture (active image)-->
                         <img alt="fracture" src="fracture.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- ascent -->
                         <img alt="ascent" src="ascent.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- haven -->
                         <img alt="haven" src="haven.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- icebox -->
                         <img alt="icebox" src="icebox.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- lotus -->
                         <img alt="lotus" src="lotus.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- pearl -->
                         <img alt="pearl" src="pearl.png" class="d-block mx-auto">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item"> <!-- split -->
                         <img alt="split" src="split.png" class="d-block mx-auto">
                     </div>
                 </div>
+                <!-- previous button -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#mapcarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">previous</span>
                   </button>
+                <!-- next button -->
                 <button class="carousel-control-next" type="button" data-bs-target="#mapcarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">next</span>
                 </button>
             </div>
-
+        </section>
+        <section id="info" class="container text-sm-center mt-5">
+            <p style="color:#ffffff">
+                The official website for <strong>USF's Valorant Green Team</strong> - winners of the Spring 2023 USF Esports Summit.
+                Currently, we are playing in NACE Starleague, ECAC Esports, and CVAL, as well as various offline and online tournaments.
+            </p>
         </section>
         <!-- responsive table (containing player roster);
             must shrink on small screens and show horizontal scrollbar when content does not fit;
             must make table rows hoverable (row changes background on hover) -->
         <section id="roster" class="container text-sm-start mt-5">
-            <p style="color:#ffffff">player roster</p>
+            <p style="color:#ffffff"><strong>player roster</strong></p>
         </section>
     </main>
 </body>
